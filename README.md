@@ -1,1 +1,26 @@
-# Code-Snippets
+# JavaScript Map
+
+```javascript
+const map = new Map();
+map.set(1, "a");
+map.set(2, "b");
+console.log(map); // {1 => 'a', 2 => 'b'}
+
+console.log(map.keys()); // {1, 2}
+console.log(map.values()); // {'a', 'b'}
+
+for (let [key, value] of map) {
+  if (value === "a") console.log(key); // 1
+}
+
+console.log(map.get(1)); // a
+```
+
+---
+
+# Removing falsy values from array
+
+```javascript
+const arr = [1, 0, null, "", undefined, false, -5];
+console.log(arr.filter(Boolean)); // [1, -5]
+```
