@@ -24,3 +24,12 @@ console.log(map.get(1)); // a
 const arr = [1, 0, null, "", undefined, false, -5];
 console.log(arr.filter(Boolean)); // [1, -5]
 ```
+
+# Printing variable name with value
+
+```javascript
+const a = 10;
+console.log({ a }); // {a: 10}
+```
+
+---
