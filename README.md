@@ -33,3 +33,14 @@ console.log({ a }); // {a: 10}
 ```
 
 ---
+
+# Round off number to a particular decimal point
+
+```javascript
+const n = 3.69;
+console.log(n.toFixed(5)); // 3.690000
+console.log(n.toFixed(1)); // 3.7
+console.log(n.toFixed(0)); // 4
+```
+
+---
