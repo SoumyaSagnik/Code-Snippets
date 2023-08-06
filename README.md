@@ -44,3 +44,23 @@ console.log(n.toFixed(0)); // 4
 ```
 
 ---
+
+# Array.from
+
+```javascript
+Array.from("abc"); // ['a', 'b', 'c']
+Array.from([1, 2, 3], (n) => n * n); // [1, 4, 9]
+```
+
+```javascript
+const map = new Map([
+  [1, 2],
+  [3, 4],
+  [5, 6],
+]);
+Array.from(map); // [[1,2], [3,4], [5,6]]
+Array.from(map.keys()); // [1, 3, 5]
+Array.from(map.values()); // [2, 4, 6]
+```
+
+---
